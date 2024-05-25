@@ -1,0 +1,5 @@
+streamlit
+nixtla
+pandas
+Numpy
+sklearn
