@@ -16,7 +16,7 @@ def dataset_description(df):
 
 # Function to perform partition 1 - Show dataset plot and info
 def partition_1_dataset(df):
-    nixtla_client = NixtlaClient(api_key ='nixt-XAcoYms3zqRSmcLprr3qm4nlVHBWgaIkmG57hcmTphfkSAi8pg1dO4FPKifn515olUDXNOklqKx4HRLh')
+    nixtla_client = NixtlaClient(api_key ='')
     
     # Display dataset description
     dataset_description(df)
@@ -27,7 +27,7 @@ def partition_1_dataset(df):
     
 # Function to perform partition 2 - Model info
 def partition_2_model_info(df):
-    nixtla_client = NixtlaClient(api_key ='nixt-XAcoYms3zqRSmcLprr3qm4nlVHBWgaIkmG57hcmTphfkSAi8pg1dO4FPKifn515olUDXNOklqKx4HRLh')
+    nixtla_client = NixtlaClient(api_key ='')
 
     # Splitting data
     train = df[:-63]
@@ -50,7 +50,7 @@ def partition_2_model_info(df):
 
 # Function to perform partition 3 - Future forecasting
 def partition_3_forecasting(df, forecast_date):
-    nixtla_client = NixtlaClient(api_key ='nixt-XAcoYms3zqRSmcLprr3qm4nlVHBWgaIkmG57hcmTphfkSAi8pg1dO4FPKifn515olUDXNOklqKx4HRLh')
+    nixtla_client = NixtlaClient(api_key ='')
 
     # Convert forecast_date to pd.Timestamp object
     forecast_date = pd.Timestamp(forecast_date)
